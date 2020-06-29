@@ -1,0 +1,164 @@
+.header{
+	text-align: center;
+	color: #056279;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 21px;
+	width: 1350px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin-left:30px;
+    padding: 0px;
+
+}
+
+.nav ul li {
+    float: left;
+	width: 182px;
+	height: 40px;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	background-color: white;
+	margin-bottom: 2px;
+	font-size: 20px;
+	margin-top: 0px;
+
+}
+
+.nav ul li a {
+    display: block;
+    color: black;
+
+}
+.nav ul li a:hover {
+    background-color: green;
+}
+.nav ul li ul li{
+ display: none;
+}
+
+.nav ul li:hover ul li {
+ display: block;
+}
+
+.para{
+	color: #A94324;
+	}
+body {
+    background-color: white;
+    font-family: sans-serif;
+    }
+.image {
+	background-image: url("https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 1350px;
+	margin-top: 10px;
+}
+
+button.details {
+    background: pink;
+    border:none;
+    color: blue;
+    font-size: 16px;
+}
+
+#fulldetails {
+    margin-left: 800px;
+    background: #FAFAD2;
+    border-style: groove;
+
+
+}
+
+#jobs{
+    background: #F0FFFF;
+    width: 700px;
+    padding: 5px;
+	position: relative;
+	font-weight: bold;
+    float:left;
+	height: 900px;
+	padding: 1px;
+}
+
+#search{
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+  margin-left: 100px;
+  border: none;
+  font-size: 17px;
+  display: inline-block;
+  text-align: center;
+  height: 30px;
+  width: 900px;
+  vertical-align: -200px;
+
+}
+
+.details{
+margin-left: 50px;
+}
+.column {
+	color : #093642;
+	font-size: 15px;
+	position: relative;
+	top: 1px;
+	float: left;
+	padding : 10px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+
+}
+.Available {
+	color: #B71C1C;
+	padding: 0;
+	margin: 0;
+	font-size: 30px;
+	position : relative;
+	top: .05px;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+	text-align:center;
+	padding: 1px;
+	color: white;
+	font-family: Marker Felt, fantasy;
+	background-color: black;
+	margin-left: -10px;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}

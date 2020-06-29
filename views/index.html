@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jobs!</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Jobs</h1>
+    <div class= "para">Your job hunt destination</div>
+    </div>
+    <div class= "image">
+    <div class = 'nav'>
+    <ul >
+      <li><a class="active" href="#"><i class="fa fa-home"></i></a>
+      <li><a href="#news"><i class="fa fa-newspaper-o" aria-hidden="true">  News</i></a>
+        <ul>
+            <li><a> International </a></li>
+            <li><a> Local </a></li>
+      </ul>
+      </li>
+
+      <li><a href="#contact"><i class="fa fa-address-book-o" aria-hidden="true">  Contact</i></a>
+      <ul>
+            <li><a> Email address </a></li>
+            <li><a> Phone number </a></li>
+            <li><a> Physical address </a></li>
+      </ul>
+      </li>
+
+       <li><a href="#empty">  </a></li>
+
+       <li><a href="#Sign in or Sign up"><i class="fa fa-user-circle-o" aria-hidden="true">  Sign in or Sign up</i></a>
+      <ul>
+		<li><a> Sign in </a></li>
+		<li><a> Sign up </a></li>
+
+      </ul>
+      </li>
+
+            <li><a href="#employer?"><i class="fa fa-briefcase" aria-hidden="true"> Want to Employ?</i></a>
+         <ul>
+		    <li><a> Create E-id </a></li>
+		    <li><a> Sign in E-id </a></li>
+
+        </ul>
+        </li>
+
+        <li><a href="#about"><i class="fa fa-info" aria-hidden="true"> About</i></a>
+        <ul>
+            <li><a> Our team </a></li>
+            <li><a> Vision for the future </a></li>
+            <li><a> Resources </a></li>
+        </ul>
+        </li>
+        </ul>
+    </div>
+    <div class = "container">
+        <br /> <br />
+        <div align = "center">
+            <input type = "text" id = "search" placeholder="Search for a job">
+            <p>
+            <input type ="submit" class="button" style = "margin-right: -100px; font-weight: bold;">
+        </div>
+        <ul class="list-group" id="result"></ul>
+        <br />
+    </div>
+    </div>
+    <div class = "Available"><p> Latest Jobs</p></div>
+
+    <div class="listjobs">
+        <ul id="jobs"></ul>
+    </div>
+
+    <aside>
+    <div id="fulldetails"></div>
+     </aside>
+    <div class="row">
+  <div class="column">
+    <div class= "search"> <i class="fa fa-search" aria-hidden="true"></i>Search millions of jobs
+    <p>We've got more than 5 million of 'em—so you've got plenty of options.</p>
+  </div>
+  </div>
+  <div class="column">
+    <div class= "search"> <i class="fa fa-codiepie" aria-hidden="true"></i>Be a better candidate
+    <p>Our career advice, resume services and education partners give you a leg up in the job search.</p>
+  </div>
+  </div>
+</div>
+
+<div class="footer">
+<div class="footer">Follow us for more in</div>
+<a href="http://www.snapchat.com/" class="fa fa-snapchat-ghost"></a>
+<a href="http://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="http://www.google.com/" class="fa fa-google"></a>
+<a href="http://www.linkedin.com/" class="fa fa-linkedin"></a>
+<a href="http://www.instagram.com/" class="fa fa-instagram"></a>
+
+</div>
+
+
+    <!-- load javascript libraries -->
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/handlebars.min.js"></script>
+    <!-- load project javascript -->
+    <!-- note that you can add more modules if you wish -->
+
+    <script src="/static/js/model.js"></script>
+    <script src="/static/js/script.js"></script>
+
+
+</body>
+</html>
